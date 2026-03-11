@@ -1,0 +1,40 @@
+"""
+auto = ["BMW", "mercedes", "lada", "Toyota"]
+print(auto)
+auto.append("Brabus")
+print(auto)
+auto.append("Lamborgini")
+print(auto)
+auto.insert(1, "mazda")
+print(auto)
+
+
+животные = []
+print(животные)
+животные.append("человек")
+животные.append("кошка")
+животные.append("сорока")
+print(животные)
+животные.insert(0, "собака")
+животные.append("черепаха")
+животные.append("корова")
+животные.append("галка")
+print(животные)
+del животные[1]
+print(животные)
+животныепоп = животные.pop(1)
+животные.pop()
+print(животные)
+print(животныепоп)
+животные.remove("черепаха")
+print(животные)
+животные.sort(reverse = True)
+print(животные)
+auto.sort(reverse = False)
+print(auto)
+print(5 ==5)
+print(5 ==6)
+print(1 > 2)
+print(len(auto))
+print(len(животные))
+"""
